@@ -1,0 +1,154 @@
+/*RESET*/
+* {
+    margin: 20px;
+    padding: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    background-color:rgb(219, 229, 201) ;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 16px;
+    font-weight: normal;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: dodgerblue;
+}
+
+/*END OF RESET*/
+
+/*MAIN*/
+main {
+    padding-bottom: 30px;
+    border-radius: 24px;
+    overflow: hidden;
+}
+main p{
+    margin: 10px 30px 0px 30px;
+    text-align: justify;
+}
+.main-flex {
+    display: flex;
+}
+.main-flex img {
+   display: flex;
+   justify-content: space-around;
+   padding: 15px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer img {
+    height: 30px;
+    margin-left: 5px;
+}
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 10px;
+    font-size: 30px;
+    padding: 15px;
+}
+nav a {
+    margin-left: 10px;
+}
+.hero {
+    max-width: 500px;
+    margin: 8px auto;
+    padding-bottom: 15px;
+}
+h1 {
+    font-size: 80px;
+    text-align: center;
+    font-family: "Archivo Black", sans-serif;
+}
+.archivo-black-regular {
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*ITEMS*/
+section {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+    text-align: center;
+}
+article {
+    display: flex;
+    width: 500px;
+    padding:20px;
+    border-radius: 12px;
+    margin: 10px;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    font-family: "Archivo Black", sans-serif;
+}
+p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+/*FORM*/
+.section-form {
+    background-color: white;
+    padding: 20px 80px 20px 80px;
+    width: 500px;
+    margin: 0px auto;
+}
+.section-form h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align:left;
+    margin-bottom: 16px;
+    color: black;
+}
+.section-form input {
+    border: 1px solid black;
+    height: 24px;
+    font-size:16px;
+    margin-bottom: 8px;
+    padding: 4px;
+    width: 100%
+}
+.button {
+   background-color: dodgerblue; 
+   padding: 10px 14px 10px 14px;
+   margin: 0px auto;
+   width: fit-content;
+   border-radius: 8px;
+   color:white;
+}
+.section-submit {
+    font-family:"Archivo Black", sans-serif;
+    text-align: center;
+}
+/*ITEMS*/
+.sec-items {
+    display: flex;
+    width:fit-content;
+    padding:20px;
+    border-radius: 12px;
+    margin: 20px 20px 20px 20px;
+    background-color: rgb(255, 255, 255);
+    align-items:flex-start;
+    line-height: 30px;
+    text-align: center;
+    flex-wrap:nowrap;    
+}
